@@ -1,0 +1,24 @@
+{
+  "name": "my-claude-score-v1",
+  "version": "1.0.0",
+  "description": "Claude Code Proficiency Score — scans ~/.claude/ and rates your usage across 5 dimensions (0-100)",
+  "main": "my-claude-score.js",
+  "bin": {
+    "my-claude-score": "./my-claude-score.js"
+  },
+  "files": [
+    "my-claude-score.js",
+    "lib/"
+  ],
+  "keywords": [
+    "claude",
+    "claude-code",
+    "proficiency",
+    "score",
+    "cli"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
